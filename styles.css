@@ -1,0 +1,286 @@
+h1 {
+  font-size: 100%;
+  text-align:center;
+}
+
+h2 {
+  color: black;
+  font-family:impact;
+  font-size: 400%;
+  text-align:center;
+}
+
+img {
+  height: 390px;
+  width: 710px;
+  border:0
+
+}
+
+
+body {
+  background-color: white;
+  /* #EEE2DC */
+}
+
+}
+h3 {
+  font-size: 110%;
+}
+
+h4 {
+  color: black;
+  font-size: 100%;
+}
+
+h5 {
+  color: black;
+  font-size: 80%;
+}
+ i {
+  color: white
+}
+
+h6 {
+  font-size: 100%;
+  text-align:center;
+}
+
+
+b {
+  color: black;
+  /* font-family: precious; */
+  font-size: 300%;
+  text-align:center;
+}
+
+b1 {
+  color: black;
+  /* font-family: precious; */
+  font-weight: bold;
+  font-size: 100%;
+  text-align:center;
+}
+
+strong {
+  color: black;
+  font-family: Arial;
+}
+
+
+
+body, html {
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+
+/* Styles the thumbnail */
+
+a.lightbox img {
+height: 200px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 500%;
+max-width: 500%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .4s ease-in-out;
+-moz-transition: .4s ease-in-out;
+-o-transition: .4s ease-in-out;
+transition: .4s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 1000px;
+max-width: 1000px;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+/*  carolyns css starts here */
+#more {
+  display: none;
+}
+
+#more1 {
+  display: none;
+}
+​
+#txt {
+  color: Black;
+}
+
+li{
+  font-size: 20px;
+  text-align: center;
+}
+​
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#myBtn {
+  text-align: center;
+  display:inline-block;
+}
+
+
+
+/*  joselyn css starts here*/
+.btn {
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.eli {color: green;
+border-radius: 12px;
+}
+.eli:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%
+}
+
+p {
+  text-align: center;
+}
+
+@import "compass/css3";
+
+@include keyframes(bounce) {
+	0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+	40% {
+    @include transform(translateY(-30px));
+  }
+	60% {
+    @include transform(translateY(-15px));
+  }
+}
+pre{
+  text-align: left;
+}
+
+
+
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+
+
+
+/*  title css*/

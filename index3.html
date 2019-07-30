@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.columns {
+  float: right;
+  width: 300px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 300px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2><center>Meet The Team!</center></h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="lucy.png" alt="L" style="width:283px">
+      <div class="container">
+        <h2>Lucy Ma</h2>
+        <p class="title">Rising Junior</p>
+        <p>Hey! My name is Lucy Ma and I am a rising junior at CLHS.  Through Girls Who Code, I have developed a passion for computer science and cannot wait to see what the future in technology has in store for us all! My favorite things are music and traveling and exploring nature. In the future, I plan on majoring in CS and getting a minor in business finance.</p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="jos.jpg" alt="J" style="width:283px">
+      <div class="container">
+        <h2>Joselyn Ruiz</h2>
+        <p class="title">Rising Senior</p>
+        <p>Hi! My name is Joselyn amd I am a senior in YES Prep East End. This was my first experience with coding and it definitely taught me many new things and it increased my interest in technology.I enjoy going to the beach, going to parties, and going out to new places. I love Math and I want to pursue a career in the Engineering field.</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="columns">
+    <div class="card">
+      <img src="caro.png" alt="C" style="width:283px">
+      <div class="container">
+        <h2>Carolyn Perez</h2>
+        <p class="title">Rising Senior</p>
+        <p>Hi! My name is Carolyn, and I am 17 years old. This is my first experience learning about coding. I have a twin sister. I love cooking, makeup, and spending time with my grandma.</p>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="columns">
+    <div class="card">
+      <img src="sarah.jpg" alt="S" style="width:283px">
+      <div class="container">
+        <h2>Sarah Khoja</h2>
+        <p class="title">Rising Junior</p>
+        <p>Hi, my name is Sarah Khoja. I go to Clements High School and will be a junior this coming 2019- 2020 school year. In my free time I like to sow, do art, and reading books.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

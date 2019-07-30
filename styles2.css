@@ -1,0 +1,45 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%
+}
+
+
+li {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px 8px gray;
+}
+
+.jos-img {
+  box-shadow: 10px 10px 5px black;
+}
+
+pre {
+  text-align: left;
+}
+
+
+#myBtnn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtnn:hover {
+  background-color: blue; /* Add a dark-grey background on hover */
+}
